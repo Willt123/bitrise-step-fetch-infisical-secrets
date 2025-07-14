@@ -68,12 +68,12 @@ toolkit:
 
 inputs:
   - infisical_client:
-      opts:
-        title: "Infisical Client ID"
-        summary: The client ID from infisical.
-        description: The client ID is required to identify the machine identity from Infisical
-        is_expand: true
-        is_required: true
+    opts:
+      title: "Infisical Client ID"
+      summary: The client ID from infisical.
+      description: The client ID is required to identify the machine identity from Infisical
+      is_expand: true
+      is_required: true
   - infisical_client_secret:
     opts:
       title: "Infisical Client Secret"
