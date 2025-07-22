@@ -81,6 +81,7 @@ inputs:
       description: The client secret is required to authenticate the machine identity from Infisical
       is_expand: true
       is_required: true
+      is_sensitive: true
   - infisical_project_id:
     opts:
       title: "Infisical Project ID"
@@ -95,7 +96,7 @@ inputs:
       description: The env is required to match the env specified in the token above to provide access to the required secrets
       is_expanded: true
       is_required: true
-  - infisical_url:
+  - infisical_url: "https://app.infisical.com"
     opts:
       title: "Infisical URL"
       summary: The url of the API to access your Infisical secrets
